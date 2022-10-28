@@ -1,0 +1,638 @@
+#header {
+    width: 100%;
+    height: 300px;
+    background-color: #3e2111;
+}
+
+#header .header_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.header_in .left {
+    padding-top: 30px;
+    margin-left: 101px;
+    color: white;
+    font-family: 'ONE-Mobile-Title';
+}
+
+
+.header_in .left span {
+    font-size: 30px;
+    color: #f7e600;
+
+}
+
+.header_in .right {
+
+    display: flex;
+    position: absolute;
+    top: 35px;
+    right: 101px;
+}
+
+.header_in .right .login a {
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 12px;
+    width: 89px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #f7e600;
+    font-weight: bold;
+    display: block;
+}
+
+.header_in .right .login a:hover {
+    color: #fc7100;
+    background-color: #ffffff;
+
+}
+
+.header_in .logo {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+}
+
+.header_in .gnb {
+    display: flex;
+    bottom: 35px;
+    position: absolute;
+    left: 202px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header_in .gnb li {
+    margin-right: 116px;
+
+}
+
+.header_in .gnb li a:hover {
+    color: #f7e600;
+}
+
+/********************** header끝 **********************/
+.mainVisual div {
+    width: 1200px;
+    height: 868px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.mainVisual div .ckpt {
+    top: 75px;
+    bottom: 75px;
+    width: 600px;
+    height: 434px;
+    overflow: hidden;
+}
+
+.mainVisual div .ckpt img {
+    transition: all 0.4s;
+}
+
+.mainVisual div .ckpt a:hover img {
+    transform: scale(1.1);
+}
+
+/********************** mainVisual끝 **********************/
+.cont1 {
+    width: 1200px;
+    height: auto;
+    margin: 75px auto;
+}
+
+.cont1 .contin {
+    width: 1200px;
+    height: 350px;
+    background: url(../img/cont1.jpg) no-repeat center center;
+    top: 75px;
+    position: relative;
+
+}
+
+.cont1 .contin .btn1 {
+    width: 400px;
+    height: 60px;
+    background-color: #fc7100;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 101px;
+}
+
+.cont1 .contin .btn1 p {
+    font-size: 30px;
+    font-family: 'ONE-Mobile-POP';
+    font-weight: bold;
+    color: #3e2111;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cont1 .contin .btn1 img {
+    width: 36px;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    position: absolute;
+}
+
+.cont1 .contin .btn2 {
+    width: 400px;
+    height: 60px;
+    background-color: #3e2111;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 701px;
+}
+
+
+.cont1 .contin .btn2 p {
+    font-size: 30px;
+    font-family: 'ONE-Mobile-POP';
+    font-weight: bold;
+    color: #fc7100;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cont1 .contin .btn2 img {
+    width: 36px;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    position: absolute;
+}
+
+/********************** cont1끝 **********************/
+
+.cont2 {
+    margin: 75px auto;
+    width: 1200px;
+    height: auto;
+    position: relative;
+}
+
+.cont2 .Bn {
+    width: 1099px;
+    height: 157px;
+    margin: 0 auto;
+    border: 1px solid #fc7100;
+    border-right: 0;
+    /* background-color: #3e2111; */
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont2 .Bn .bn_in {
+    width: 157px;
+    height: 157px;
+    box-sizing: border-box;
+    background-color: #3e2111;
+    border-right: 1px solid #fc7100;
+    position: relative;
+
+}
+
+.cont2 .Bn .bn_in img {
+    width: 80px;
+    height: auto;
+}
+
+
+.bn_in .bn_icon {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.bn_in .bn_icon .over {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.bn_in a:hover .over {
+    display: block;
+
+}
+
+.bn_in a:hover .in {
+    display: none;
+
+
+}
+
+.bn_in a:hover .bn_icon {
+    background-color: #f7e600;
+    width: 156px;
+    height: 137px;
+}
+
+.bn_in a:hover p {
+    font-weight: bold;
+    color: #3e2111;
+}
+
+.bn_in p {
+    position: absolute;
+    font-family: 'ONE-Mobile-POP';
+    font-size: 15px;
+    color: #f7e600;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bn_last {
+    border-right: 0;
+}
+
+/********************** cont2끝 **********************/
+
+.cont3 {
+    background: linear-gradient(rgb(245, 239, 239) 30%, beige);
+    width: 100%;
+    height: 700px;
+    margin: 370px auto 0 auto;
+
+}
+
+.cont3 .cont3_in {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont3_in .cont3_h3 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cont3_in .cont3_h4 {
+    font-family: 'ONE-Mobile-Title';
+    font-weight: bold;
+    font-size: 36px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 230px;
+}
+
+.cont3_in .mn_list {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 321px;
+}
+
+.cont3_in .mn_list p {
+    font-family: 'ONE-Mobile-POP';
+    font-size: 23px;
+    color: #fc7100;
+}
+
+.cont3_in .mn_list p:hover {
+    color: #3e2111;
+}
+
+.cont3_in .ck_mn img {
+    width: 180px;
+    height: auto;
+    transition: all 0.4s;
+
+}
+
+.cont3_in .ck_mn {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 431px;
+}
+
+.cont3_in .ck_mn {
+    position: relative;
+}
+
+.cont3_in .ck_mn .slick-arrow {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-top: 10px solid #fc7100;
+    border-right: 10px solid #fc7100;
+    cursor: pointer;
+    position: absolute;
+    bottom: 80px;
+    border-radius: 20%;
+    font-size: 0;
+}
+
+
+.cont3_in .ck_mn .slick-next {
+    position: absolute;
+    right: -40px;
+    transform: rotate(45deg);
+}
+
+.cont3_in .ck_mn .slick-prev {
+    position: absolute;
+    left: -100px;
+    transform: rotate(-135deg);
+}
+
+.cont3_in .ck_mn .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;
+
+}
+
+.cont3_in .ck_mn .slick-dots li {
+
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.cont3_in .ck_mn .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3e2111;
+    border: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.cont3_in .ck_mn .slick-dots li.slick-active button {
+    background-color: #fc7100;
+}
+
+.cont3_in .ck_mn li p {
+    font-family: 'ONE-Mobile-POP';
+    margin-top: 15px;
+    text-align: center;
+    line-height: 25px;
+    color: #3e2111;
+    padding-right: 18px;
+}
+
+.cont3_in .ck_mn li:hover p {
+    color: #fc7100;
+}
+
+.cont3_in .ck_mn li:hover img {
+    scale: 1.1;
+}
+
+.cont3_in .mn_icon img {
+    height: 70px;
+    width: auto;
+    position: absolute;
+}
+
+/* .cont3_in .mn_icon .left {
+    position: absolute;
+    left: 0;
+    bottom: 275px;
+}
+
+.cont3_in .mn_icon .right {
+    position: absolute;
+    right: 70px;
+    bottom: 275px;
+} */
+
+/********************** cont3끝 **********************/
+
+#footer .ft_1 {
+    width: 100%;
+    background-color: #3e2111;
+    margin: 0 auto;
+
+}
+
+.ft_1 div {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.ft_1 .ft_logo {
+    display: flex;
+    /* position: absolute; */
+}
+
+
+.ft_1 .ft_logo li {
+
+    margin-right: 40px;
+}
+
+.ft_1 .ft_logo li:last-child {
+    margin-right: 0;
+    padding-top: 35px;
+}
+
+.ft_1 .ft_logo li:first-child {
+    padding-top: 40px;
+}
+
+.ft_1 .ft_logo li:nth-child(2) {
+    padding-top: 40px;
+}
+
+.ft_1 .ft_logo li:nth-child(3) {
+    padding-top: 25px;
+}
+
+.ft_1 .ft_logo li:nth-child(4) {
+    padding-top: 57px;
+}
+
+
+.ft_2 {
+    width: 100%;
+    background-color: #291c15;
+}
+
+.ft_2 .ft_in {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ft_in .fmenu {
+    padding: 40px 0;
+}
+
+.ft_in .fmenu li {
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    line-height: 1em;
+}
+
+.ft_in .fmenu li a {
+    color: #fff;
+    opacity: 0.8;
+    transition: all 0.1s;
+}
+
+.ft_in .fmenu li:hover a {
+    color: #fc7100;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.ft_in .fmenu li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+
+
+}
+
+.ft_in .fmenu li button {
+    border: 1px solid #ffffff;
+    color: #fff;
+    line-height: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: -3px;
+    padding-left: 2px;
+    transition: all 0.1s;
+}
+
+.ft_in .fmenu li button:hover {
+    opacity: 1;
+    font-weight: bold;
+    background-color: #fc7100;
+}
+
+.ft_in .fmenu li button img {
+    width: 16px;
+    padding-top: 2px;
+}
+
+.f_txt {
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.f_txt .last_txt {
+    margin-top: 30px;
+    color: #746e6d;
+}
+
+.f_right {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.f_right span {
+    font-family: 'ONE-Mobile-Title';
+    font-size: 36px;
+}
+
+.f_right img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+
+
+/********************** footer끝 **********************/
+
+
+
+.banner {
+
+    right: 30px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner div {
+    position: relative;
+    display: inline-block;
+}
+
+.banner div .bnicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner .bnicon li {
+    margin: 15px 0;
+    transition: all 0.1s;
+}
+
+.banner .bnicon li p {
+    margin-top: 10px;
+    text-align: center;
+    color: #fc7100;
+    font-weight: bold;
+}
+
+.banner .bnicon li img {
+    width: 60px;
+    height: auto;
+    transition: all 0.2s;
+
+}
+
+.banner .bnicon li:hover img {
+    transform: translate(10px, -5px);
+}
+
+.banner .bnicon li:hover p {
+    color: #ffffff;
+}
+
+/********************** banner끝 **********************/
