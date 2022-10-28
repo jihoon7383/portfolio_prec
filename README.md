@@ -17,4 +17,4 @@
 1. 순서가
 2. 있는
 3. 목록
-[포트폴리오 UI보러가기](dc-jhoon.netlify.app)
+[포트폴리오 UI보러가기](https://dc-jhoon.netlify.app/)
